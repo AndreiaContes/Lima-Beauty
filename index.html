@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Lima Beauty | Studio de Estética</title>
+
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <h1>Lima<span>Beauty</span></h1>
+      <p>Studio de Estética</p>
+    </div>
+
+    <nav class="navbar">
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre nós</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <a class="btn-header" href="https://wa.me/5521980592023" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i>
+      Agendar pelo WhatsApp
+    </a>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <span class="tag">Lima Beauty</span>
+
+        <h2>
+          Realce sua beleza <br>
+          com cuidado, técnica <br>
+          e <strong>sofisticação</strong>
+        </h2>
+
+        <p>
+          Podologia, unhas de gel, cílios e design de sobrancelhas em um studio pensado para valorizar você.
+        </p>
+
+        <a class="btn-primary" href="https://wa.me/5521980592023" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+          Agendar pelo WhatsApp
+        </a>
+      </div>
+
+      <div class="hero-image logo-blend">
+      <img src="img/logo1.png" alt="Studio Lima Beauty">
+      </div>
+    </section>
+
+    <!-- SERVIÇOS COM CARROSSEL -->
+    <section id="servicos" class="services-section">
+      <span class="section-tag">Nossos serviços</span>
+      <h2>Beleza em cada <strong>detalhe</strong></h2>
+
+      <div class="carousel-wrapper">
+        <button class="carousel-btn prev" id="prevBtn">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+
+        <div class="services-carousel" id="servicesCarousel">
+
+          <article class="service-card">
+            <img src="img/podologia3.jpg" alt="Podologia">
+            <div class="service-icon">
+              <i class="fa-solid fa-spa"></i>
+            </div>
+            <h3>Podologia</h3>
+            <p>Cuidado completo para a saúde e bem-estar dos seus pés.</p>
+          </article>
+
+          <article class="service-card">
+            <img src="img/unha3.jpg" alt="Unhas de gel">
+            <div class="service-icon">
+              <i class="fa-solid fa-hand-sparkles"></i>
+            </div>
+            <h3>Unhas de Gel</h3>
+            <p>Alongamento e esmaltação com acabamento impecável.</p>
+          </article>
+
+          <article class="service-card">
+            <img src="img/cilios.jpg" alt="Aplicação de cílios">
+            <div class="service-icon">
+              <i class="fa-regular fa-eye"></i>
+            </div>
+            <h3>Aplicação de Cílios</h3>
+            <p>Olhar marcante e natural para o seu dia a dia.</p>
+          </article>
+
+          <article class="service-card">
+            <img src="img/sobrancelha.jpg" alt="Design de sobrancelhas">
+            <div class="service-icon">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <h3>Design de Sobrancelhas</h3>
+            <p>Harmonia perfeita para valorizar seu rosto.</p>
+          </article>
+
+          <article class="service-card">
+            <img src="img/unha1.jpg" alt="Manutenção de unhas">
+            <div class="service-icon">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <h3>Manutenção de Unhas</h3>
+            <p>Unhas sempre lindas, resistentes e bem cuidadas.</p>
+          </article>
+
+          <article class="service-card">
+            <img src="img/podologia.jpg" alt="Spa dos pés">
+            <div class="service-icon">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <h3>Spa dos Pés</h3>
+            <p>Momento de cuidado, relaxamento e bem-estar.</p>
+          </article>
+
+        </div>
+
+        <button class="carousel-btn next" id="nextBtn">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+
+      <div class="carousel-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="about-section">
+      <span class="section-tag"></span>
+      <h2>Sobre <strong>nós</strong></h2>
+
+      <div class="owners-grid">
+
+        <article class="owner-card">
+          <img src="img/mayara.png" alt="Proprietária da Lima Beauty">
+          <div>
+            <h3>Mayhara Lima</h3>
+            <span>Unhas e Nail Design</span>
+            <p>Responsável por unhas de gel, manutenção e acabamento impecável.</p>
+            <div class="owner-social">
+              
+            </div>
+          </div>
+        </article>
+
+        <article class="owner-card">
+          <img src="img/debora.png" alt="Proprietária da Lima Beauty">
+          <div>
+            <h3>Débora</h3>
+            <span>Cílios e Sobrancelhas</span> 
+            <p>Especialista em realçar o olhar com naturalidade, técnica e beleza.</p>
+            <div class="owner-social">
+              
+            </div>
+          </div>
+        </article>
+
+        <article class="owner-card">
+          <img src="img/gal.png" alt="Proprietária da Lima Beauty">
+          <div>
+            <h3>Gal Lima</h3>
+            <span>Podologia e Spa dos pés</span>
+            <p>Especialista em cuidados para os pés, com atendimento delicado e personalizado.</p>
+            <div class="owner-social">
+              
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="why-section">
+      <h2>Por que escolher a <strong>Lima Beauty?</strong></h2>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <i class="fa-regular fa-heart"></i>
+          <h3>Atendimento personalizado</h3>
+          <p>Cada cliente recebe um cuidado único e pensado para sua beleza.</p>
+        </div>
+
+        <div class="why-card">
+          <i class="fa-solid fa-award"></i>
+          <h3>Produtos de qualidade</h3>
+          <p>Trabalhamos com produtos selecionados e seguros.</p>
+        </div>
+
+        <div class="why-card">
+          <i class="fa-solid fa-couch"></i>
+          <h3>Ambiente acolhedor</h3>
+          <p>Um espaço pensado para o seu conforto e bem-estar.</p>
+        </div>
+
+        <div class="why-card">
+          <i class="fa-solid fa-sparkles"></i>
+          <h3>Técnica e segurança</h3>
+          <p>Procedimentos feitos com cuidado, técnica e responsabilidade.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section id="depoimentos" class="testimonials-section">
+      <h2>O que nossas <strong>clientes dizem</strong></h2>
+
+      <div class="testimonials-grid">
+        <article class="testimonial-card">
+          <div class="quote">“</div>
+          <p>Ambiente maravilhoso e profissionais incríveis! Saí renovada e muito satisfeita.</p>
+          <div class="stars">★★★★★</div>
+          <strong>Juliana A.</strong>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="quote">“</div>
+          <p>A melhor podologia que já fiz. Atendimento impecável e muito cuidado.</p>
+          <div class="stars">★★★★★</div>
+          <strong>Camila R.</strong>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="quote">“</div>
+          <p>Cílios perfeitos e sobrancelhas do jeitinho que eu queria. Amei!</p>
+          <div class="stars">★★★★★</div>
+          <strong>Beatriz M.</strong>
+        </article>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-section">
+      <div>
+        <h2>Agende seu momento de cuidado na <em>Lima Beauty</em></h2>
+        <p>Você merece se sentir linda todos os dias.</p>
+      </div>
+
+      <a href="https://wa.me/5521999999999" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+        Agendar pelo WhatsApp
+      </a>
+    </section>
+
+  </main>
+
+  <footer id="contato" class="footer">
+    <div class="footer-brand">
+      <h2>Lima<span>Beauty</span></h2>
+      <p>Studio de Estética</p>
+    </div>
+
+    <div class="footer-info">
+      <p><i class="fa-brands fa-whatsapp"></i> (21) 98059-2023</p>
+      <p><i class="fa-brands fa-instagram"></i> @limabeauty.studio</p>
+      <p><i class="fa-solid fa-location-dot"></i> Rua das Flores, 123 - Centro</p>
+    </div>
+
+    <p class="copyright">
+      © 2024 Lima Beauty. Todos os direitos reservados.
+    </p>
+  </footer>
+
+  <button class="back-top" id="backTop">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <a 
+  href="https://wa.me/552199999999" 
+  class="whatsapp-float" 
+  target="_blank"
+  aria-label="Agendar pelo WhatsApp"
+>
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
